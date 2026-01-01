@@ -35,5 +35,5 @@ def get_employee_hrms(employee_id: str) -> Dict[str, Any]:
 
 if __name__ == "__main__":
     # Start MCP server (stdio / http depending on deployment)
-    mcp.run(transport='http',host='0.0.0.0',port=8000)
-    #mcp.run()
+    mcp.run(transport='http',host='0.0.0.0',port=8000)   #Remote server
+    #mcp.run()  #STDIO server (local)
